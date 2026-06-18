@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 900" role="img" aria-labelledby="title desc">
+  <title id="title">Office Central Hub operations dashboard screenshot</title>
+  <desc id="desc">A dashboard interface with sidebar navigation, operations overview metrics, ticket charts, recent activity, and user performance.</desc>
+  <rect width="1800" height="900" fill="#f7f8fa"/>
+  <rect width="250" height="900" fill="#111827"/>
+  <rect x="20" y="18" width="40" height="40" rx="8" fill="#ffffff"/>
+  <circle cx="40" cy="32" r="10" fill="#ef5b51"/>
+  <rect x="35" y="43" width="10" height="8" rx="3" fill="#ef5b51"/>
+  <text x="72" y="46" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">TL Control</text>
+
+  <rect x="12" y="88" width="224" height="40" rx="6" fill="#ef5b51"/>
+  <text x="56" y="115" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Dashboard</text>
+  <g fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">
+    <text x="56" y="154">Tickets</text>
+    <text x="56" y="195">Parking</text>
+    <text x="56" y="236">Meeting Room</text>
+    <text x="56" y="277">Floor Map</text>
+    <text x="56" y="318">QR Codes</text>
+    <text x="56" y="359">Directory</text>
+    <text x="56" y="400">Notifications</text>
+    <text x="56" y="441">Settings</text>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="25" y="103" width="14" height="14"/>
+    <path d="M27 147h18M30 140h12M30 154h12M34 140v14"/>
+    <path d="M25 190h18l-5-7h-8z"/>
+    <path d="M28 230v-16h14v16M25 230h20"/>
+    <path d="M25 265l10-8 10 8v18l-10 8-10-8z"/>
+    <path d="M25 306h6v6h-6zM38 306h6v6h-6zM25 319h6v6h-6zM38 319h6v6h-6z"/>
+    <path d="M25 350c0-6 5-11 11-11s11 5 11 11M30 360v-8M42 360v-8"/>
+    <path d="M33 388a8 8 0 1 0 16 0a8 8 0 0 0-16 0M41 396v8"/>
+    <path d="M34 425a8 8 0 1 0 0 16a8 8 0 0 0 0-16M24 433h4M40 433h4"/>
+  </g>
+  <line x1="0" y1="790" x2="250" y2="790" stroke="#273244"/>
+  <circle cx="38" cy="824" r="18" fill="#ef5b51"/>
+  <text x="33" y="831" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">A</text>
+  <text x="68" y="821" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Admin</text>
+  <text x="68" y="838" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12">admin@tygrlabs.local</text>
+  <text x="44" y="882" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="14">Sign Out</text>
+
+  <text x="430" y="56" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">Operations Overview</text>
+  <text x="430" y="84" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="17">Live metrics from your facility.</text>
+  <rect x="1572" y="39" width="140" height="38" rx="8" fill="#ef5b51"/>
+  <text x="1642" y="64" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Report Issue</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(430 122)">
+      <rect width="310" height="150" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="46" fill="#475569" font-size="15">Total Tickets</text>
+      <text x="24" y="96" fill="#0f172a" font-size="30" font-weight="800">0</text>
+      <text x="24" y="119" fill="#64748b" font-size="13">+0 this week</text>
+      <rect x="248" y="25" width="36" height="36" rx="9" fill="#fee2e2"/>
+    </g>
+    <g transform="translate(755 122)">
+      <rect width="310" height="150" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="46" fill="#475569" font-size="15">Open Issues</text>
+      <text x="24" y="96" fill="#f97316" font-size="30" font-weight="800">0</text>
+      <text x="24" y="119" fill="#64748b" font-size="13">0 critical</text>
+      <rect x="248" y="25" width="36" height="36" rx="9" fill="#fed7aa"/>
+    </g>
+    <g transform="translate(1080 122)">
+      <rect width="310" height="150" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="46" fill="#475569" font-size="15">Resolved</text>
+      <text x="24" y="96" fill="#00a35c" font-size="30" font-weight="800">0</text>
+      <text x="24" y="119" fill="#64748b" font-size="13">+0 this week</text>
+      <rect x="248" y="25" width="36" height="36" rx="9" fill="#bbf7d0"/>
+    </g>
+    <g transform="translate(1405 122)">
+      <rect width="310" height="150" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="46" fill="#475569" font-size="15">Avg Resolution</text>
+      <text x="24" y="96" fill="#2563eb" font-size="30" font-weight="800">0h</text>
+      <text x="24" y="119" fill="#64748b" font-size="13">across all categories</text>
+      <rect x="248" y="25" width="36" height="36" rx="9" fill="#bfdbfe"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(430 302)">
+      <rect width="420" height="102" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <rect x="24" y="26" width="48" height="48" rx="10" fill="#ead7ff"/>
+      <text x="88" y="50" fill="#0f172a" font-size="22" font-weight="800">0</text>
+      <text x="88" y="74" fill="#64748b" font-size="15">In Progress</text>
+    </g>
+    <g transform="translate(865 302)">
+      <rect width="420" height="102" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <rect x="24" y="26" width="48" height="48" rx="10" fill="#dbeafe"/>
+      <text x="88" y="50" fill="#0f172a" font-size="22" font-weight="800">0</text>
+      <text x="88" y="74" fill="#64748b" font-size="15">Active Users</text>
+    </g>
+    <g transform="translate(1300 302)">
+      <rect width="415" height="102" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <rect x="24" y="26" width="48" height="48" rx="10" fill="#fee2e2"/>
+      <text x="88" y="50" fill="#ff001a" font-size="22" font-weight="800">0</text>
+      <text x="88" y="74" fill="#64748b" font-size="15">Critical</text>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(430 435)">
+      <rect width="630" height="318" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="42" fill="#0f172a" font-size="17" font-weight="800">Tickets by Category</text>
+      <rect x="64" y="72" width="540" height="190" fill="none" stroke="#e5e7eb" stroke-dasharray="4 5"/>
+    </g>
+    <g transform="translate(1084 435)">
+      <rect width="631" height="318" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="42" fill="#0f172a" font-size="17" font-weight="800">Tickets by Status</text>
+    </g>
+    <g transform="translate(430 784)">
+      <rect width="760" height="116" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="42" fill="#0f172a" font-size="17" font-weight="800">Recent Activity</text>
+      <text x="320" y="82" fill="#64748b" font-size="14">No recent activity.</text>
+    </g>
+    <g transform="translate(1215 784)">
+      <rect width="500" height="116" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+      <text x="24" y="42" fill="#0f172a" font-size="17" font-weight="800">User Performance</text>
+      <circle cx="40" cy="88" r="16" fill="#fee2e2"/>
+      <text x="35" y="94" fill="#ef5b51" font-size="12" font-weight="800">A</text>
+      <text x="68" y="84" fill="#0f172a" font-size="14" font-weight="800">Admin</text>
+      <text x="68" y="100" fill="#64748b" font-size="12">0 resolved</text>
+    </g>
+  </g>
+</svg>

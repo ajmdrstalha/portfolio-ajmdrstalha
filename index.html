@@ -3,353 +3,365 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="AJ MD RS TALHA — IT DevOps & System Engineer Portfolio" />
-  <title>AJ MD RS TALHA</title>
+  <meta name="description" content="Portfolio of AJ MD. RS Talha, an AI Engineer, Agentic AI Developer, DevOps & Cloud Specialist, and founder of Tech AI Ops. Specializing in AI automation, LLM integration, Azure, Docker, Kubernetes, Linux, networking, and production-grade business software." />
+  <meta property="og:title" content="AJ MD. RS Talha | AI Engineer & Founder of Tech AI Ops" />
+  <meta property="og:description" content="AI Engineer building agentic workflows, AI automation systems, DevOps pipelines, cloud infrastructure, and custom business software." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ajmdrstalha.codes/" />
+  <title>AJ MD. RS Talha | AI Engineer, Agentic AI Developer &amp; DevOps Specialist</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css" />
-
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 </head>
 
 <body>
-  <!-- Top Nav -->
-  <header class="header">
-    <div class="container header__inner">
-      <a class="brand" href="#top" aria-label="Go to top">
-        <span class="brand__name">AJ MD RS TALHA</span>
-      </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="sidebar">
+    <span class="nav-toggle__bar"></span>
+    <span class="nav-toggle__bar"></span>
+    <span class="nav-toggle__bar"></span>
+  </button>
+  <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="nav-toggle__bar"></span>
-        <span class="nav-toggle__bar"></span>
-        <span class="nav-toggle__bar"></span>
-      </button>
+  <aside class="sidebar" id="sidebar" aria-label="Portfolio sidebar">
+    <a class="profile" href="#top" aria-label="Go to top">
+      <span class="profile__avatar">
+        <img src="./images/aj-md-rs-talha-profile.png" alt="Portrait of AJ MD. RS Talha" />
+      </span>
+      <span class="profile__name">AJ MD. RS Talha</span>
+      <span class="profile__role">AI Engineer | Agentic AI Developer | Founder of Tech AI Ops</span>
+    </a>
 
-      <nav class="nav" id="nav">
-        <a class="nav__link" href="#about">About</a>
-        <a class="nav__link" href="#experience">Experience & Skills</a>
-        <a class="nav__link" href="#certifications">Certifications</a>
-        <a class="nav__link" href="#projects">Projects</a>
-        <a class="nav__link" href="#contact">Contact</a>
-      </nav>
+    <div class="social-links" aria-label="Social links">
+      <a href="mailto:ajmdrstalha@gmail.com" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/ajmdrstalha/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+      <a href="https://ajmdrstalha.codes/" target="_blank" rel="noreferrer" aria-label="Portfolio"><i class="bi bi-globe" aria-hidden="true"></i></a>
+      <a href="https://techaiops.online/" target="_blank" rel="noreferrer" aria-label="Tech AI Ops"><i class="bi bi-rocket-takeoff" aria-hidden="true"></i></a>
     </div>
-  </header>
 
-  <main id="top">
-    <!-- Hero -->
-    <section class="hero">
+    <nav class="nav" id="nav" aria-label="Primary navigation">
+      <a class="nav__link" href="#about"><i class="bi bi-person" aria-hidden="true"></i><span>About</span></a>
+      <a class="nav__link" href="#expertise"><i class="bi bi-stars" aria-hidden="true"></i><span>AI Expertise</span></a>
+      <a class="nav__link" href="#experience"><i class="bi bi-briefcase" aria-hidden="true"></i><span>Experience</span></a>
+      <a class="nav__link" href="#founder"><i class="bi bi-rocket-takeoff" aria-hidden="true"></i><span>Founder</span></a>
+      <a class="nav__link" href="#projects"><i class="bi bi-kanban" aria-hidden="true"></i><span>Projects</span></a>
+      <a class="nav__link" href="#skills"><i class="bi bi-cpu" aria-hidden="true"></i><span>Skills</span></a>
+      <a class="nav__link" href="#education"><i class="bi bi-mortarboard" aria-hidden="true"></i><span>Education</span></a>
+      <a class="nav__link" href="#contact"><i class="bi bi-chat-dots" aria-hidden="true"></i><span>Contact</span></a>
+    </nav>
+  </aside>
+
+  <main class="main" id="top">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="container hero__grid">
         <div class="hero__content">
-          <p class="hero__kicker">Welcome to my portfolio</p>
-          <h1 class="hero__title">AJ MD RS TALHA</h1>
-          <p class="hero__subtitle">IT DevOps &amp; System Engineer</p>
+          <p class="eyebrow">AI Engineer | Agentic AI Developer | Founder of Tech AI Ops</p>
+          <h1 class="hero__title" id="hero-title">
+            <span>AI Engineer for</span>
+            <span>Agentic AI, DevOps</span>
+            <span>&amp; Cloud Automation</span>
+          </h1>
+          <p class="hero__summary">
+            I design and deploy AI-powered systems, agentic workflows, DevOps pipelines, and scalable cloud infrastructure by combining Generative AI, automation, Linux, networking, and cloud engineering.
+          </p>
 
-          <!-- Social Buttons -->
-          <div class="hero__links">
-            <a class="icon-link" href="https://www.linkedin.com/in/ajmdrstalha/" target="_blank" rel="noreferrer">
-              <i class="bi bi-linkedin"></i>
-              <span>LinkedIn</span>
-            </a>
-
-            <a class="icon-link" href="https://github.com/ajmdrstalha" target="_blank" rel="noreferrer">
-              <i class="bi bi-github"></i>
-              <span>GitHub</span>
-            </a>
-
-            <a class="icon-link" href="https://www.youtube.com/@techaiops" target="_blank" rel="noreferrer">
-              <i class="bi bi-youtube"></i>
-              <span>YouTube</span>
-            </a>
+          <div class="hero__cta" aria-label="Primary actions">
+            <a class="btn btn--primary" href="#projects"><i class="bi bi-kanban" aria-hidden="true"></i><span>View Projects</span></a>
+            <a class="btn btn--secondary" href="https://www.linkedin.com/in/ajmdrstalha/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i><span>Connect on LinkedIn</span></a>
+            <a class="btn btn--ghost" href="https://techaiops.online/" target="_blank" rel="noreferrer"><i class="bi bi-rocket-takeoff" aria-hidden="true"></i><span>Tech AI Ops</span></a>
           </div>
 
-          <!-- Primary Buttons -->
-          <div class="hero__cta">
-            <a class="btn btn--primary" href="#projects">View Projects</a>
-            <a class="btn btn--ghost" href="#contact">Contact</a>
+          <div class="tool-strip" aria-label="Hero badges">
+            <span>AI Engineering</span><span>Agentic Workflows</span><span>LLM Integration</span><span>OpenAI</span><span>Claude</span><span>Cursor</span><span>GitHub Copilot</span><span>Azure</span><span>Docker</span><span>Kubernetes</span><span>Linux</span><span>DevOps</span>
           </div>
         </div>
 
-        <!-- Decorative panel (static) -->
-        <div class="hero__panel" aria-hidden="true">
-          <div class="panel-card">
-            <div class="panel-card__title">DevOps • Cloud • Automation</div>
-            <div class="panel-card__text">
-              CI/CD pipelines • Azure • AWS • Docker • Kubernetes • Terraform • Ansible
-            </div>
-            <div class="panel-card__chips">
-              <span class="chip">Azure</span>
-              <span class="chip">AWS</span>
-              <span class="chip">Docker</span>
-              <span class="chip">K8s</span>
-              <span class="chip">CI/CD</span>
-            </div>
-          </div>
+        <aside class="hero__panel" aria-label="Career highlights">
+          <div class="metric"><span class="metric__value">4+</span><span class="metric__label">years across infrastructure, cloud, Linux, networking, and automation</span></div>
+          <div class="metric"><span class="metric__value">40%</span><span class="metric__label">manual IT intervention reduced through agentic support systems</span></div>
+          <div class="metric"><span class="metric__value">3x</span><span class="metric__label">development acceleration through AISE and infrastructure automation</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section__grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 class="section__title">AI-focused engineering with real infrastructure depth.</h2>
+        </div>
+        <div class="prose">
+          <p>I am an AI Operations &amp; DevOps Engineer with 4+ years of experience across infrastructure, cloud, networking, Linux systems, automation, and AI-powered software development.</p>
+          <p>My work focuses on building production-grade AI solutions using agentic workflows, LLM integration, AI automation, prompt engineering, and AI System Engineering practices. I combine my background in DevOps, Azure, Docker, Kubernetes, Linux administration, and network engineering to build scalable systems that solve real business problems.</p>
+          <p>I am also the founder of Tech AI Ops, an AI-focused technology agency that helps modern businesses scale faster through smart digital solutions, automation, AI-powered software, web platforms, and cloud infrastructure.</p>
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section class="section" id="about">
+    <section class="section section--raised" id="expertise">
       <div class="container">
         <div class="section__head">
-          <h2 class="section__title">About Me</h2>
+          <p class="eyebrow">AI Expertise</p>
+          <h2 class="section__title">Agentic systems, LLM integration, AI automation, and production engineering.</h2>
         </div>
 
-        <div class="card">
-          <p>
-            Technology has always been a big part of my life. With more than 3 years of experience in networking, I built a strong base in Linux, Cisco, and MikroTik. For the past year, I’ve been working in DevOps, focusing on CI/CD pipelines, Azure, AWS, Docker, Kubernetes, GitHub Actions, Terraform, Ansible, server management, and cybersecurity, all centered on automation and reliability.
-          </p>
+        <div class="card-grid card-grid--four">
+          <article class="card">
+            <i class="card__icon bi bi-diagram-3" aria-hidden="true"></i>
+            <h3>Agentic AI Systems</h3>
+            <p>Designing AI agents and agentic workflows for operations, support, admin tasks, and business process automation.</p>
+            <div class="chips"><span>AI Agents</span><span>Tool Calling</span><span>AI Assistants</span></div>
+          </article>
+          <article class="card">
+            <i class="card__icon bi bi-stars" aria-hidden="true"></i>
+            <h3>LLM Integration</h3>
+            <p>Integrating large language models into applications, dashboards, internal tools, and support systems.</p>
+            <div class="chips"><span>OpenAI</span><span>Claude</span><span>Gemini</span><span>Prompt Engineering</span></div>
+          </article>
+          <article class="card">
+            <i class="card__icon bi bi-lightning-charge" aria-hidden="true"></i>
+            <h3>AI Automation</h3>
+            <p>Automating repetitive operational tasks with AI platforms, scripts, APIs, and workflow orchestration.</p>
+            <div class="chips"><span>Python</span><span>FastAPI</span><span>Codex</span><span>Cursor</span></div>
+          </article>
+          <article class="card">
+            <i class="card__icon bi bi-cloud-check" aria-hidden="true"></i>
+            <h3>AI System Engineering</h3>
+            <p>Building AI-enabled systems with secure infrastructure, deployment pipelines, monitoring, and DevOps practices.</p>
+            <div class="chips"><span>AISE</span><span>LLMOps</span><span>RAG</span><span>Azure</span></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- Experience & Skills -->
     <section class="section" id="experience">
       <div class="container">
         <div class="section__head">
-          <h2 class="section__title">Experience &amp; Skills</h2>
+          <p class="eyebrow">Professional Experience</p>
+          <h2 class="section__title">Production operations across AI systems, cloud, and networks.</h2>
         </div>
 
-        <div class="grid-2">
-          <div class="stack">
-            <article class="card">
-              <h3 class="card__title">IT Support &amp; DevOps Engineer</h3>
-              <p class="muted">TygrLabs · Full-time<br/>Aug 2025 – Present · On-site</p>
-              <ul class="list">
-                <li>Used GitHub, Docker, and Linux for DevOps automation.</li>
-                <li>Improved workflows and reduced deployment errors by 25%.</li>
-                <li>Hands-on experience with Microsoft Azure, including setting up VMs and managing resources.</li>
-                <li>Worked on DevOps workflows to streamline cloud operations.</li>
-                <li>Configured and monitored Starlink, MikroTik routers, switches, firewalls, and Wi‑Fi.</li>
-                <li>Troubleshot network issues, ensuring 99% uptime.</li>
-                <li>Maintained and supported Windows Servers, network devices, and end-user systems; achieved 75% system availability.</li>
-                <li>Managed DevOps pipelines for reliable automated deployments.</li>
-                <li>Maintained IT infrastructure, including networks, servers, and cloud systems.</li>
-              </ul>
-            </article>
-
-            <article class="card">
-              <h3 class="card__title">Network &amp; System Engineer (NOC)</h3>
-              <p class="muted">Dhaka Fiber Net Ltd. · Full-time<br/>Jan 2025 – Jul 2025 · 7 mos · Dhaka, Bangladesh · On-site</p>
-              <ul class="list">
-                <li>Automated OLT commands using Python, increasing service delivery speed by 60%.</li>
-                <li>Deployed network automation scripts via GitHub, improving DevOps readiness by 20%.</li>
-                <li>Monitored and controlled network performance in a NOC environment, ensuring 99.9% uptime with automation and management tools.</li>
-                <li>Worked on OLT systems, Cisco routers/switches, MikroTik routers, and Ubuntu servers.</li>
-                <li>Designed and implemented chatbot workflows in ReveChat to automate customer conversations and reduce manual support workload.</li>
-              </ul>
-            </article>
-
-            <article class="card">
-              <h3 class="card__title">Network Support Engineer</h3>
-              <p class="muted">ASIANET Online Service · Full-time<br/>Jan 2024 – Dec 2024 · 1 yr · Uttara, Dhaka, Bangladesh</p>
-              <ul class="list">
-                <li>Optimized network support and management with Python and MikroTik, boosting efficiency by 25%.</li>
-                <li>Configured and managed MikroTik routers, VLANs, PPPoE, DHCP, NAT, and firewall settings.</li>
-                <li>Monitored networks and troubleshot issues using WinBox and The Dude.</li>
-              </ul>
-            </article>
-          </div>
-
-          <aside class="card">
-            <h3 class="card__title">Skills</h3>
-            <ul class="list list--compact">
-              <li>Version Control</li>
-              <li>Linux (Ubuntu, RedHat)</li>
-              <li>Scripting &amp; Automation (Python, Bash)</li>
-              <li>Networking (TCP/IP, DNS, DHCP)</li>
-              <li>Containerization &amp; Orchestration (Docker, Kubernetes)</li>
-              <li>Cloud Computing (AZURE, AWS)</li>
-              <li>CI/CD (Jenkins, GitHub Actions)</li>
-              <li>Infrastructure as Code (Terraform, Ansible)</li>
-              <li>Monitoring &amp; Logging (Prometheus, Grafana)</li>
+        <div class="timeline">
+          <article class="experience-card">
+            <div class="experience-card__meta">
+              <span class="tag">Aug 2025 - Present</span>
+              <h3>AI Operations &amp; DevOps Engineer</h3>
+              <p>TygrLabs | On-site / Dhaka, Bangladesh</p>
+            </div>
+            <ul class="list">
+              <li>Orchestrated AI-optimized DevOps workflows in Azure, reducing deployment latency by 25%.</li>
+              <li>Maintained AI infrastructure using Docker and Kubernetes, ensuring 99.9% service reliability.</li>
+              <li>Built monitoring stacks for hybrid networks, achieving 99% uptime for operations nodes.</li>
+              <li>Accelerated development by 3x through AISE practices and automated Infrastructure-as-Code templates.</li>
+              <li>Deployed agentic support systems that reduced manual IT intervention by 40%.</li>
+              <li>Supported cloud, Linux, networking, and automation workflows for production systems.</li>
             </ul>
-          </aside>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-card__meta">
+              <span class="tag">Jan 2025 - Jul 2025</span>
+              <h3>Network &amp; System Engineer, NOC</h3>
+              <p>Dhaka Fiber Net Ltd. | Dhaka, Bangladesh</p>
+            </div>
+            <ul class="list">
+              <li>Replaced manual OLT configurations with Python automation scripts, boosting provisioning speed by 40%.</li>
+              <li>Optimized ISP infrastructure for Cisco and MikroTik environments, maintaining 99.9% core network uptime.</li>
+              <li>Standardized automation scripts using GitHub, reducing configuration outages by 30%.</li>
+              <li>Used AI platforms to analyze performance and proactively resolve network bottlenecks.</li>
+              <li>Worked with OLT systems, MikroTik, Cisco, Ubuntu servers, routing, VLANs, DHCP, NAT, firewalls, and monitoring tools.</li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- Certifications -->
+    <section class="section section--founder" id="founder">
+      <div class="container founder-panel">
+        <div>
+          <p class="eyebrow">Founder / Agency</p>
+          <h2 class="section__title">Founder of Tech AI Ops</h2>
+          <p class="contact-copy">I founded Tech AI Ops to help businesses adopt AI-powered digital solutions, automation, and scalable software systems. The agency focuses on smart business tools, workflow automation, web platforms, AI-powered applications, cloud solutions, and digital transformation systems.</p>
+          <div class="founder-meta">
+            <span>Founder &amp; Lead AI Engineer</span>
+            <span>Tech AI Ops</span>
+            <a href="https://techaiops.online/" target="_blank" rel="noreferrer">techaiops.online</a>
+          </div>
+          <a class="btn btn--primary" href="https://techaiops.online/" target="_blank" rel="noreferrer"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i><span>Visit Tech AI Ops</span></a>
+        </div>
+        <div class="service-grid">
+          <span>AI Automation</span><span>AI Agent Development</span><span>Web Application Development</span><span>Custom Business Software</span><span>Cloud &amp; DevOps</span><span>Digital Transformation</span><span>Workflow Automation</span><span>AI-Powered Business Tools</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--raised" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Featured Projects</p>
+          <h2 class="section__title">Real AI, DevOps, automation, and client software work.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./images/office-central-hub.svg" alt="Office Central Hub operations dashboard with tickets, parking, meeting room, floor map, and facilities metrics" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <p class="project-category">AI-Assisted Internal Business Platform</p>
+              <h3>Office Central Hub</h3>
+              <dl class="case-study">
+                <dt>Problem</dt><dd>Office operations required manual coordination for admin support, parking, maintenance, and network issues.</dd>
+                <dt>Solution</dt><dd>Built an AI-assisted office portal using OpenAI Codex for support and admin workflows, automating parking requests, maintenance requests, and network ticketing systems.</dd>
+                <dt>Impact</dt><dd>Improved internal task processing speed by 50% and reduced manual admin follow-up.</dd>
+                <dt>Tools</dt><dd>OpenAI Codex, Python, FastAPI, API Design, Automation, Dashboard, Production Deployment.</dd>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-card project-card--featured">
+            <div class="project-card__media">
+              <img src="./images/nibir-fashion-billing-dashboard.svg" alt="Professional billing software dashboard for Nibir Fashion and SD Fashion" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <p class="project-category">Custom Business Software / Billing Automation</p>
+              <h3>Professional Billing Software Web Portal</h3>
+              <dl class="case-study">
+                <dt>Problem</dt><dd>Nibir Fashion and SD Fashion needed a professional billing and sales tracking system instead of manual sales records.</dd>
+                <dt>Solution</dt><dd>Built a dark premium billing system with new sale, sales history, product management, sales calendar, backup and restore, daily/monthly reports, admin login, and light/dark mode.</dd>
+                <dt>Impact</dt><dd>Automated sales tracking, reduced manual billing errors, improved daily reporting, and made business operations more organized.</dd>
+                <dt>Tools</dt><dd>Frontend, Backend, Database, Local Backup System, Responsive UI, Business Dashboard.</dd>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./images/Pipeline.jpg" alt="Azure CI/CD pipeline architecture for cloud deployments" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <p class="project-category">AI DevOps &amp; Cloud Infrastructure</p>
+              <h3>Enterprise AI DevOps on Azure</h3>
+              <dl class="case-study">
+                <dt>Problem</dt><dd>AI-driven applications required secure, scalable, and automated deployment pipelines.</dd>
+                <dt>Solution</dt><dd>Automated end-to-end CI/CD pipelines using Azure DevOps and YAML. Configured Azure Virtual Machines and security groups to host secure workloads.</dd>
+                <dt>Impact</dt><dd>Reduced deployment effort and optimized Azure resource allocation, lowering monthly cloud infrastructure costs by 20%.</dd>
+                <dt>Tools</dt><dd>Azure, Azure DevOps, YAML, Docker, Kubernetes, Linux, CI/CD, IaC.</dd>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./images/project1.png" alt="OLT automation interface used for network provisioning" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <p class="project-category">Network Automation</p>
+              <h3>OLT Auto Command</h3>
+              <dl class="case-study">
+                <dt>Problem</dt><dd>OLT power-check and configuration tasks were repetitive and time-consuming.</dd>
+                <dt>Solution</dt><dd>Built a Python-based automation tool with a simple interface to execute OLT commands faster.</dd>
+                <dt>Impact</dt><dd>Reduced manual command execution and improved provisioning speed.</dd>
+                <dt>Tools</dt><dd>Python, Streamlit, Docker, OLT Automation, Network Engineering.</dd>
+              </dl>
+              <a class="text-link" href="https://github.com/ajmdrstalha/Epon-Command-Generator" target="_blank" rel="noreferrer">View GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./images/aws_cicd_image1.png" alt="Portfolio website deployment workflow with CI/CD" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <p class="project-category">Personal Branding / DevOps Deployment</p>
+              <h3>Portfolio Website with CI/CD</h3>
+              <dl class="case-study">
+                <dt>Problem</dt><dd>Needed a professional portfolio website with reliable hosting and version-controlled updates.</dd>
+                <dt>Solution</dt><dd>Built and deployed a static portfolio website hosted through GitHub with structured content, responsive UI, and professional branding.</dd>
+                <dt>Impact</dt><dd>Created a central place to showcase AI engineering, DevOps, cloud, automation, and founder work.</dd>
+                <dt>Tools</dt><dd>HTML, CSS, JavaScript, GitHub Pages, SEO, Responsive Design.</dd>
+              </dl>
+              <a class="text-link" href="https://github.com/ajmdrstalha/Python_Protfolio_Website" target="_blank" rel="noreferrer">View GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Technical Skills &amp; AI Platforms</p>
+          <h2 class="section__title">A practical stack for production-grade AI systems and business software.</h2>
+        </div>
+
+        <div class="skill-groups">
+          <article class="skill-group"><h3>AI Platforms</h3><div class="chips"><span>OpenAI Codex</span><span>ChatGPT</span><span>Claude</span><span>Gemini</span><span>Cursor</span><span>GitHub Copilot</span><span>Claude Code</span><span>Gemini CLI</span><span>Manus</span><span>Perplexity</span><span>Grok</span><span>AI Coding Agents</span></div></article>
+          <article class="skill-group"><h3>AI &amp; GenAI</h3><div class="chips"><span>LLM Integration</span><span>Prompt Engineering</span><span>AI Agents</span><span>Agentic Workflows</span><span>RAG</span><span>AISE</span><span>LLMOps</span><span>AI Automation</span></div></article>
+          <article class="skill-group"><h3>Programming</h3><div class="chips"><span>Python</span><span>FastAPI</span><span>Bash</span><span>API Design</span><span>Workflow Orchestration</span><span>Git</span></div></article>
+          <article class="skill-group"><h3>Cloud &amp; Infrastructure</h3><div class="chips"><span>Azure</span><span>Linux Ubuntu</span><span>Linux CentOS</span><span>Virtualization</span><span>System Design</span><span>Windows Server</span></div></article>
+          <article class="skill-group"><h3>DevOps &amp; Platform</h3><div class="chips"><span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>GitHub Actions</span><span>CI/CD</span><span>Infrastructure as Code</span><span>Monitoring</span></div></article>
+          <article class="skill-group"><h3>Networking</h3><div class="chips"><span>MikroTik</span><span>Cisco</span><span>Network Security</span><span>VLAN</span><span>Routing</span><span>Firewalls</span><span>OLT</span><span>Starlink</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--raised" id="education">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Education</p>
+          <h2 class="section__title">Academic foundation in computer science and technology.</h2>
+        </div>
+
+        <div class="card-grid card-grid--two">
+          <article class="card education-card"><i class="card__icon bi bi-mortarboard" aria-hidden="true"></i><h3>BSc in Computer Science &amp; Engineering</h3><p>Uttara University</p><span class="tag">2025 - Present</span></article>
+          <article class="card education-card"><i class="card__icon bi bi-journal-code" aria-hidden="true"></i><h3>Diploma in Computer Science &amp; Technology</h3><p>Institute of Science and Technology</p><span class="tag">2022 - 2024</span></article>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="certifications">
       <div class="container">
         <div class="section__head">
-          <h2 class="section__title">Certifications</h2>
+          <p class="eyebrow">Certifications</p>
+          <h2 class="section__title">Validated training across networking, security, Linux, and DevOps.</h2>
         </div>
 
-        <div class="stack">
-          <article class="card">
-            <h3 class="card__title">Fortinet NSE Certification</h3>
-            <p class="muted">Issuer: Fortinet · Issued: Dec 2025</p>
-            <p>Course: Introduction the Threat Landscape 3.0</p>
-          </article>
-
-          <article class="card">
-            <h3 class="card__title">DevOps Professional Training Certification</h3>
-            <p class="muted">Issuer: Interactive Cares · Issued: Apr 2025</p>
-          </article>
-
-          <article class="card">
-            <h3 class="card__title">RedHat Professional Training Certification</h3>
-            <p class="muted">Issuer: Atova Technology · Issued: Jan 2025</p>
-          </article>
-
-          <article class="card">
-            <h3 class="card__title">MikroTik Certified Network Associate (MTCNA)</h3>
-            <p class="muted">Issuer: MikroTik · Issued: Nov 2024</p>
-            <p class="muted">Credential ID: 2411NA9081</p>
-            <p>
-              Skills: Network Configuration · MikroTik RouterOS · Routing Protocols · NAT Configuration · Firewall Management · VPN Configuration · Troubleshooting · Switching &amp; VLAN Configuration · QoS
-            </p>
-          </article>
-
-          <article class="card">
-            <h3 class="card__title">CCNA Professional Training Certification</h3>
-            <p class="muted">Issuer: Atova Technology · Issued: Jun 2024</p>
-          </article>
-
-          <article class="card">
-            <h3 class="card__title">APNIC Certifications</h3>
-            <p class="muted">Issuer: APNIC · Issued: Jan 2024</p>
-            <p>Courses: Routing Fundamentals · Intro to BGP · OSPF · IPv6 Fundamentals · IPv6 Address Planning</p>
-          </article>
-
-          <article class="card">
-            <h3 class="card__title">Cisco Networking Academy Certifications</h3>
-            <p class="muted">Issuer: Cisco Networking Academy · Issued: Jan 2024</p>
-            <p>
-              Courses: Introduction to Modern AI · IT Essentials · Junior Cybersecurity Analyst Career Path · Linux Essentials · Network Addressing &amp; Basic Troubleshooting · Networking Basics
-            </p>
-          </article>
-
-          <article class="card">
-            <h3 class="card__title">MikroTik Professional Training Certification</h3>
-            <p class="muted">Issuer: Atova Technology · Issued: Aug 2023</p>
-          </article>
+        <div class="cert-grid">
+          <article class="cert-card"><i class="bi bi-router" aria-hidden="true"></i><span>MTCNA</span></article>
+          <article class="cert-card"><i class="bi bi-hdd-network" aria-hidden="true"></i><span>Cisco Networking Academy</span></article>
+          <article class="cert-card"><i class="bi bi-globe2" aria-hidden="true"></i><span>APNIC Certification</span></article>
+          <article class="cert-card"><i class="bi bi-infinity" aria-hidden="true"></i><span>DevOps Professional Training</span></article>
+          <article class="cert-card"><i class="bi bi-terminal" aria-hidden="true"></i><span>RedHat</span></article>
+          <article class="cert-card"><i class="bi bi-shield-lock" aria-hidden="true"></i><span>Fortinet NSE</span></article>
+          <article class="cert-card"><i class="bi bi-award" aria-hidden="true"></i><span>OLT Automation Award</span></article>
         </div>
       </div>
     </section>
 
-    <!-- Projects -->
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section__head">
-          <h2 class="section__title">Projects</h2>
+    <section class="section section--contact" id="contact">
+      <div class="container contact-panel">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 class="section__title">Let's Build AI-Powered Systems Together</h2>
+          <p class="contact-copy">I am open to opportunities in AI Engineering, Agentic AI Development, DevOps, Cloud Infrastructure, Network Automation, and custom business software development. For professional collaboration, consulting, or project discussions, feel free to reach out.</p>
         </div>
-
-        <div class="stack">
-          <article class="project card">
-            <div class="project__media">
-              <img src="./images/Pipeline.jpg" alt="CI/CD with Azure" loading="lazy" />
-            </div>
-            <div class="project__content">
-              <h3 class="card__title">CI/CD with Azure</h3>
-              <ul class="list">
-                <li>Azure Container Registry (ACR) stores Docker images</li>
-                <li>Azure VM hosts the application</li>
-                <li>Azure Pipelines (YAML) automates build &amp; deploy</li>
-              </ul>
-              <p class="muted"><strong>Skills:</strong> Microsoft Azure · DevOps · Azure DevOps Services · CI/CD</p>
-            </div>
-          </article>
-
-          <article class="project card">
-            <div class="project__media">
-              <img src="./images/jenkins_cicd.jpg" alt="Jenkins CI/CD Pipeline Project" loading="lazy" />
-            </div>
-            <div class="project__content">
-              <h3 class="card__title">Jenkins CI/CD Pipeline Project</h3>
-              <ul class="list">
-                <li>Built a CI/CD pipeline using Jenkins and Git</li>
-                <li>Automated build, testing, and deployment on every code push</li>
-                <li>Improved delivery speed and reliability with consistent automation</li>
-              </ul>
-              <p class="muted"><strong>Skills:</strong> Jenkins · CI/CD</p>
-            </div>
-          </article>
-
-          <article class="project card">
-            <div class="project__media">
-              <img src="./images/aws_cicd_image1.png" alt="Portfolio Deployment with CI/CD (AWS)" loading="lazy" />
-            </div>
-            <div class="project__content">
-              <h3 class="card__title">Portfolio Deployment with CI/CD (AWS)</h3>
-              <ul class="list">
-                <li>Built and containerized the portfolio using Docker</li>
-                <li>Automated build/test/deploy with GitHub Actions on every push</li>
-                <li>Deployed and hosted the app on AWS for reliable delivery</li>
-              </ul>
-              <p class="muted"><strong>Skills:</strong> DevOps · Amazon Web Services (AWS) · GitHub Actions · Docker</p>
-              <div class="project__links">
-                <a class="btn btn--small" href="https://github.com/ajmdrstalha/Python_Protfolio_Website" target="_blank" rel="noreferrer">GitHub Repo</a>
-                <a class="btn btn--small btn--ghost" href="https://ajmdrstalha.xyz" target="_blank" rel="noreferrer">Website Portfolio</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project card">
-            <div class="project__media">
-              <img src="./images/project1.png" alt="OLT Auto Command" loading="lazy" />
-            </div>
-            <div class="project__content">
-              <h3 class="card__title">OLT Auto Command</h3>
-              <ul class="list">
-                <li>Automated OLT power-check commands to reduce manual work</li>
-                <li>Built a simple Streamlit UI for faster operations</li>
-                <li>Packaged everything in Docker for easy, consistent runs</li>
-              </ul>
-              <div class="project__links">
-                <a class="btn btn--small" href="https://github.com/ajmdrstalha/Epon-Command-Generator" target="_blank" rel="noreferrer">GitHub</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project card">
-            <div class="project__media">
-              <img src="./images/project2.png" alt="Networking Project" loading="lazy" />
-            </div>
-            <div class="project__content">
-              <h3 class="card__title">Networking Project</h3>
-              <ul class="list">
-                <li>Configured VLANs, inter-VLAN routing, and EtherChannel on Cisco devices</li>
-                <li>Implemented STP tuning / load balancing for resilient switching</li>
-                <li>Secured access with SSH + port security and optimized addressing (VLSM/SLSM)</li>
-              </ul>
-              <div class="project__links">
-                <a class="btn btn--small" href="https://drive.google.com/drive/folders/1NzzuxnJufYZXCIGWM7CDsw-z65xyFdAR" target="_blank" rel="noreferrer">File</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section__head">
-          <h2 class="section__title">Contact Me</h2>
-        </div>
-
-        <div class="card contact">
-          <div>
-            <p class="contact__label">Email</p>
-            <p class="contact__value">
-              <a href="mailto:ajmdrstalha@gmail.com">ajmdrstalha@gmail.com</a>
-            </p>
-          </div>
-
-          <div class="contact__hint muted">
-            You can email me directly using the link.
-          </div>
+        <div class="contact-links" aria-label="Contact links">
+          <a href="mailto:ajmdrstalha@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> Email Me</a>
+          <a href="tel:+8801829564070"><i class="bi bi-telephone" aria-hidden="true"></i> +8801829564070</a>
+          <a href="https://www.linkedin.com/in/ajmdrstalha/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i> Connect on LinkedIn</a>
+          <a href="https://ajmdrstalha.codes/" target="_blank" rel="noreferrer"><i class="bi bi-globe" aria-hidden="true"></i> Portfolio</a>
+          <a href="https://techaiops.online/" target="_blank" rel="noreferrer"><i class="bi bi-rocket-takeoff" aria-hidden="true"></i> Visit Tech AI Ops</a>
+          <span class="contact-location"><i class="bi bi-geo-alt" aria-hidden="true"></i> Dhaka, Bangladesh</span>
         </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="container footer__inner">
-        <p class="muted">© <span id="year"></span> AJ MD RS TALHA</p>
+        <p>&copy; <span id="year"></span> AJ MD. RS Talha. AI Engineering, Agentic Automation &amp; Tech AI Ops.</p>
         <a class="to-top" href="#top">Back to top</a>
       </div>
     </footer>

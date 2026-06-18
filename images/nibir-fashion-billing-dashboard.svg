@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Professional billing software dashboard for Nibir Fashion and SD Fashion</title>
+  <desc id="desc">Dark premium sales dashboard with sidebar navigation, sales metrics, daily report, sales calendar, backup and restore actions, and monthly reports.</desc>
+  <rect width="1900" height="900" fill="#09090c"/>
+  <rect width="252" height="900" fill="#060807"/>
+  <rect x="252" width="1648" height="60" fill="#111115"/>
+  <line x1="252" y1="60" x2="1900" y2="60" stroke="#2e2711"/>
+  <line x1="252" y1="0" x2="252" y2="900" stroke="#211c0d"/>
+
+  <rect x="20" y="14" width="38" height="38" rx="9" fill="#10100d" stroke="#d8b52e"/>
+  <text x="39" y="31" text-anchor="middle" fill="#d8b52e" font-family="Georgia, serif" font-size="14">NF</text>
+  <text x="70" y="39" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Nibir Fashion</text>
+  <line x1="0" y1="72" x2="252" y2="72" stroke="#2e2711"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="8" y="93" width="232" height="40" rx="10" fill="#3a3212"/>
+    <rect x="8" y="93" width="5" height="40" rx="3" fill="#e4bd2e"/>
+    <text x="56" y="118" fill="#ffffff" font-size="14" font-weight="800">Dashboard</text>
+    <text x="56" y="163" fill="#e5e7eb" font-size="15" font-weight="700">New Sale</text>
+    <text x="56" y="207" fill="#e5e7eb" font-size="15" font-weight="700">Sales History</text>
+    <text x="56" y="251" fill="#e5e7eb" font-size="15" font-weight="700">Products</text>
+    <text x="56" y="295" fill="#e5e7eb" font-size="15" font-weight="700">Settings</text>
+    <line x1="0" y1="724" x2="252" y2="724" stroke="#2e2711"/>
+    <text x="56" y="764" fill="#e5e7eb" font-size="15" font-weight="700">Light Mode</text>
+    <circle cx="38" cy="812" r="16" fill="#e4bd2e"/>
+    <text x="64" y="817" fill="#ffffff" font-size="15" font-weight="700">admin@example.com</text>
+    <rect x="8" y="844" width="232" height="40" rx="9" fill="#fb2b31"/>
+    <text x="54" y="869" fill="#ffffff" font-size="14" font-weight="800">Logout</text>
+  </g>
+
+  <g stroke="#a1a1aa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 106h14v14H28zM28 106v-7M42 106v-7M28 120v7M42 120v7M21 113h7M42 113h7"/>
+    <path d="M25 150h18l-3 15H30zM29 146h10"/>
+    <path d="M25 198a9 9 0 1 0 9-9v9z"/>
+    <path d="M27 238l9-5 9 5v12l-9 5-9-5z"/>
+    <path d="M28 284a8 8 0 1 0 16 0a8 8 0 0 0-16 0M36 272v4M36 292v4"/>
+  </g>
+
+  <rect x="276" y="10" width="38" height="38" rx="9" fill="#10100d" stroke="#d8b52e"/>
+  <text x="295" y="27" text-anchor="middle" fill="#d8b52e" font-family="Georgia, serif" font-size="14">NF</text>
+  <text x="328" y="34" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Dashboard</text>
+  <rect x="1510" y="8" width="96" height="36" rx="10" fill="#111115" stroke="#463914"/>
+  <text x="1558" y="31" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Backup</text>
+  <rect x="1618" y="8" width="96" height="36" rx="10" fill="#111115" stroke="#463914"/>
+  <text x="1666" y="31" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Restore</text>
+  <text x="1728" y="31" fill="#8ab4ff" font-family="Inter, Arial, sans-serif" font-size="14">Thursday, June 18, 2026</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(501 86)">
+      <rect width="568" height="125" rx="16" fill="#111115" stroke="#3d3215"/>
+      <rect x="25" y="24" width="44" height="44" rx="13" fill="#e4bd2e"/>
+      <text x="84" y="39" fill="#8ab4ff" font-size="15">Today Sales</text>
+      <text x="84" y="72" fill="#ffffff" font-size="26" font-weight="800">BDT 0.00</text>
+      <text x="84" y="96" fill="#8ab4ff" font-size="13">0 sales</text>
+    </g>
+    <g transform="translate(1085 86)">
+      <rect width="568" height="125" rx="16" fill="#111115" stroke="#3d3215"/>
+      <rect x="25" y="24" width="44" height="44" rx="13" fill="#e4bd2e"/>
+      <text x="84" y="39" fill="#8ab4ff" font-size="15">This Month Sales</text>
+      <text x="84" y="72" fill="#ffffff" font-size="26" font-weight="800">BDT 3,600.00</text>
+      <text x="84" y="96" fill="#8ab4ff" font-size="13">8 sales</text>
+    </g>
+
+    <g transform="translate(501 232)">
+      <rect width="812" height="548" rx="16" fill="#111115" stroke="#3d3215"/>
+      <line x1="0" y1="58" x2="812" y2="58" stroke="#3d3215"/>
+      <text x="44" y="35" fill="#ffffff" font-size="17" font-weight="800">Today's Sales Report</text>
+      <text x="312" y="113" fill="#8ab4ff" font-size="15">No sales recorded today yet</text>
+    </g>
+
+    <g transform="translate(1334 232)">
+      <rect width="319" height="548" rx="16" fill="#111115" stroke="#3d3215"/>
+      <line x1="0" y1="80" x2="319" y2="80" stroke="#3d3215"/>
+      <text x="38" y="35" fill="#ffffff" font-size="17" font-weight="800">Sales</text>
+      <text x="38" y="59" fill="#ffffff" font-size="17" font-weight="800">Calendar</text>
+      <text x="172" y="46" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="800">June 2026</text>
+      <g fill="#8ab4ff" font-size="12" font-weight="800">
+        <text x="30" y="113">Su</text><text x="72" y="113">Mo</text><text x="115" y="113">Tu</text><text x="158" y="113">We</text><text x="200" y="113">Th</text><text x="242" y="113">Fr</text><text x="284" y="113">Sa</text>
+      </g>
+      <g fill="#ffffff" font-size="14" font-weight="800">
+        <text x="74" y="153">1</text><text x="116" y="153">2</text><text x="158" y="153">3</text><text x="200" y="153">4</text><text x="242" y="153">5</text><text x="284" y="153">6</text>
+        <text x="30" y="199">7</text><text x="74" y="199">8</text><text x="116" y="199">9</text><text x="154" y="199">10</text><text x="198" y="199">11</text><text x="240" y="199">12</text><text x="282" y="199">13</text>
+        <text x="26" y="245">14</text><text x="70" y="245">15</text>
+      </g>
+      <rect x="98" y="220" width="40" height="44" rx="10" fill="#463914"/>
+      <text x="118" y="238" text-anchor="middle" fill="#e4bd2e" font-size="13" font-weight="800">16</text>
+      <text x="118" y="254" text-anchor="middle" fill="#e4bd2e" font-size="10" font-weight="800">2.1k</text>
+      <rect x="140" y="220" width="40" height="44" rx="10" fill="#463914"/>
+      <text x="160" y="238" text-anchor="middle" fill="#e4bd2e" font-size="13" font-weight="800">17</text>
+      <text x="160" y="254" text-anchor="middle" fill="#e4bd2e" font-size="10" font-weight="800">1.5k</text>
+      <rect x="182" y="220" width="40" height="44" rx="10" fill="#e4bd2e"/>
+      <text x="202" y="246" text-anchor="middle" fill="#0a0a0b" font-size="14" font-weight="900">18</text>
+      <g fill="#ffffff" font-size="14" font-weight="800">
+        <text x="240" y="245">19</text><text x="282" y="245">20</text><text x="26" y="291">21</text><text x="70" y="291">22</text><text x="112" y="291">23</text><text x="154" y="291">24</text><text x="198" y="291">25</text><text x="240" y="291">26</text><text x="282" y="291">27</text>
+        <text x="26" y="337">28</text><text x="70" y="337">29</text><text x="112" y="337">30</text>
+      </g>
+      <line x1="18" y1="370" x2="304" y2="370" stroke="#3d3215"/>
+      <text x="18" y="405" fill="#ffffff" font-size="19" font-weight="800">2026-06-18</text>
+      <text x="18" y="438" fill="#e4bd2e" font-size="18" font-weight="800">0 sales</text>
+      <text x="92" y="438" fill="#ffffff" font-size="22" font-weight="800">BDT 0.00</text>
+      <text x="72" y="486" fill="#8ab4ff" font-size="14">No sales on this date</text>
+    </g>
+
+    <g transform="translate(501 801)">
+      <rect width="1152" height="150" rx="16" fill="#111115" stroke="#3d3215"/>
+      <text x="24" y="50" fill="#ffffff" font-size="17" font-weight="800">Monthly Sales Report</text>
+      <rect x="998" y="24" width="128" height="36" rx="16" fill="#e4bd2e"/>
+      <text x="1062" y="47" text-anchor="middle" fill="#0a0a0b" font-size="14" font-weight="800">June 2026</text>
+    </g>
+  </g>
+</svg>
