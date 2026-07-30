@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Connected AI agents illustration">
+  <defs>
+    <linearGradient id="agenticA" x1="10" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D5FF"/>
+      <stop offset=".55" stop-color="#3578FF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="agenticB" x1="15" y1="44" x2="51" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <path d="M19 18h26M19 46h26M18 20l12 12m16-12L34 32M18 44l12-12m16 12L34 32" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="22" y="22" width="20" height="20" rx="10" fill="url(#agenticA)"/>
+  <path d="M27 33c3-5 7-5 10 0M27 31c3 5 7 5 10 0" fill="none" stroke="#fff" stroke-width="2.3" stroke-linecap="round"/>
+  <circle cx="16" cy="18" r="8" fill="url(#agenticB)"/>
+  <circle cx="48" cy="18" r="8" fill="#7C3AED"/>
+  <circle cx="16" cy="46" r="8" fill="#0EA5E9"/>
+  <circle cx="48" cy="46" r="8" fill="#F59E0B"/>
+  <circle cx="16" cy="18" r="2.5" fill="#fff"/>
+  <circle cx="48" cy="18" r="2.5" fill="#fff"/>
+  <circle cx="16" cy="46" r="2.5" fill="#fff"/>
+  <circle cx="48" cy="46" r="2.5" fill="#fff"/>
+</svg>

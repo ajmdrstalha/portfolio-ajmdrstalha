@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>ChatGPT Agent</title>
+  <defs>
+    <linearGradient id="agentGradient" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10a37f"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#ecfdf5"/>
+  <path fill="url(#agentGradient)" d="M32 8c2.4 0 4.3 1.9 4.3 4.3v3.2h4.8c6.1 0 11.1 5 11.1 11.1v12.8c0 6.1-5 11.1-11.1 11.1H22.9c-6.1 0-11.1-5-11.1-11.1V26.6c0-6.1 5-11.1 11.1-11.1h4.8v-3.2C27.7 9.9 29.6 8 32 8Zm-9.1 14.8c-2 0-3.7 1.7-3.7 3.7v12.9c0 2 1.7 3.7 3.7 3.7h18.2c2 0 3.7-1.7 3.7-3.7V26.5c0-2-1.7-3.7-3.7-3.7H22.9Z"/>
+  <circle cx="26" cy="32" r="3.4" fill="#0f172a"/>
+  <circle cx="38" cy="32" r="3.4" fill="#0f172a"/>
+  <path fill="none" stroke="#0f172a" stroke-linecap="round" stroke-width="3" d="M27 39c2.8 1.9 7.2 1.9 10 0"/>
+  <rect x="37" y="6" width="21" height="13" rx="6.5" fill="#0f172a"/>
+  <path fill="#fff" d="M42.3 15 46 9.7h2.2l3.7 5.3h-2.1l-.6-1h-4.2l-.6 1h-2.1Zm3.5-2.5h2.6l-1.3-2.1-1.3 2.1Z"/>
+</svg>

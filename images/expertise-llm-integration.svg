@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LLM integration illustration">
+  <defs>
+    <linearGradient id="llmA" x1="12" y1="11" x2="52" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".55" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="12" width="34" height="28" rx="10" fill="url(#llmA)"/>
+  <path d="M20 48l7-8h17c6 0 10-4 10-10v-2c0-6-4-10-10-10h-4" fill="none" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="21" cy="26" r="3" fill="#fff"/>
+  <circle cx="31" cy="26" r="3" fill="#fff"/>
+  <path d="M18 33h14m8-6h8m-8 7h8" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="46" cy="28" r="5" fill="#FFB020"/>
+  <path d="M46 23v10m-5-5h10" stroke="#111827" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
