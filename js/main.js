@@ -73,21 +73,11 @@
       link.className = `nav__link nav__link--${item.modifier}`;
       link.href = item.href;
 
-      const icon = document.createElement("span");
-      icon.className = `nav__icon${item.variant === "photo" ? " nav__icon--photo" : ""}`;
-      icon.setAttribute("aria-hidden", "true");
-
-      const image = document.createElement("img");
-      image.src = item.image;
-      image.alt = "";
-      image.loading = "eager";
-      icon.append(image);
-
       const label = document.createElement("span");
       label.className = "nav__label";
       label.textContent = item.label;
 
-      link.append(icon, label);
+      link.append(label);
       nav.append(link);
     });
   };
