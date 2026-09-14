@@ -306,7 +306,7 @@ a{ color:inherit; }
   max-width: 820px;
   margin:0;
   color: var(--text);
-  font-size: clamp(42px, 6vw, 74px);
+  font-size: clamp(36px, 5vw, 60px);
   line-height: 1.02;
   font-weight: 900;
   letter-spacing: 0;
@@ -1383,6 +1383,36 @@ a{ color:inherit; }
   flex: 0 0 auto;
 }
 
+.cert-card--openai{
+  grid-column: span 2;
+  align-items:flex-start;
+}
+
+.cert-card__logo{
+  width: 42px;
+  height: 42px;
+  padding: 9px;
+  border-radius: 12px;
+  background: #eff6ff;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.cert-card__content{
+  min-width: 0;
+}
+
+.cert-card__content ul{
+  display:grid;
+  gap: 5px;
+  margin: 9px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
 .skill-groups{
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1578,7 +1608,11 @@ a{ color:inherit; }
   }
 
   .hero__title{
-    font-size: clamp(34px, 10vw, 46px);
+    font-size: clamp(28px, 7.8vw, 36px);
+  }
+
+  .cert-card--openai{
+    grid-column: auto;
   }
 
   .hero__summary,

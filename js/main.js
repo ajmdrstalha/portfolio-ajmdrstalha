@@ -11,8 +11,7 @@
     {
       label: "About",
       href: "#about",
-      image: "images/aj-md-rs-talha-profile.png",
-      variant: "photo",
+      image: "images/nav-about.svg",
       modifier: "about",
     },
     {
