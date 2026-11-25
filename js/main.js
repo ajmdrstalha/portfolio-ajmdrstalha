@@ -315,7 +315,7 @@
     cisco: "images/brands/cisco.svg",
     notion: "images/brands/notion.svg",
     perplexity: "images/brands/perplexity.svg",
-    manusAI: "images/brands/manus.png",
+    manusAI: "images/brands/manus.png", gemini: "images/brands/gemini.svg", "google-antigravity": "images/brands/google-antigravity.svg", obsidian: "images/brands/obsidian.svg", "google-flow-veo": "images/brands/google-flow-veo.svg", mcp: "images/brands/mcp.svg", ffmpeg: "images/brands/ffmpeg.svg",
   };
 
   const toolkitTools = [
@@ -334,7 +334,7 @@
     { name: "Cisco", icon: toolkitIcons.cisco, brand: "#1ba0d7" },
     { name: "Notion", icon: toolkitIcons.notion, brand: "#000000" },
     { name: "Perplexity", icon: toolkitIcons.perplexity, brand: "#1fb8cd" },
-    { name: "Manus AI", icon: toolkitIcons.manusAI, brand: "#111827" },
+    { name: "Manus AI", icon: toolkitIcons.manusAI, brand: "#111827" }, { name: "Google Gemini", icon: toolkitIcons.gemini, brand: "#4285f4" }, { name: "Google Antigravity", icon: toolkitIcons["google-antigravity"], brand: "#4285f4" }, { name: "Obsidian", icon: toolkitIcons.obsidian, brand: "#7c3aed" }, { name: "Google Flow / Veo 3.1", icon: toolkitIcons["google-flow-veo"], brand: "#4285f4" }, { name: "MCP", icon: toolkitIcons.mcp, brand: "#111827" }, { name: "FFmpeg", icon: toolkitIcons.ffmpeg, brand: "#007808" },
   ];
 
   const renderToolkit = () => {
@@ -346,7 +346,7 @@
     if (!outer || !inner) return;
 
     const total = toolkitTools.length;
-    const outerCount = Math.min(10, total);
+    const outerCount = Math.ceil(total * 0.58);
     const groups = [
       { element: outer, tools: toolkitTools.slice(0, outerCount), radius: "var(--outer-radius)", ring: "outer", startAngle: -90 },
       { element: inner, tools: toolkitTools.slice(outerCount), radius: "var(--inner-radius)", ring: "inner", startAngle: -60 },
